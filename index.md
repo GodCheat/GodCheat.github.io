@@ -2,8 +2,8 @@
 
 <div class="embed-responsive embed-responsive-16by9">
     <video id="video">
-        <source src="#{@video_source}/webm" type="video/webm">
-        <source src="#{@video_source}/hls.m3u8">
+        <source src="#{video_source}/webm" type="video/webm">
+        <source src="#{video_source}/hls.m3u8">
         Your browser does not support the <code>video</code> element.
     </video>
 </div>
