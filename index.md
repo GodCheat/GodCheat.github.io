@@ -1,9 +1,8 @@
 ## IPL
 
-<div class="embed-responsive embed-responsive-16by9">
-    <video id="video">
-        <source src="#{video_source}/webm" type="video/webm">
-        <source src="#{video_source}/hls.m3u8">
+<div>
+    <video id="video" controls preload="auto" width="640" height="480" data-setup='{}'>
+        <source src={{site.video_source}}>
         Your browser does not support the <code>video</code> element.
     </video>
 </div>
